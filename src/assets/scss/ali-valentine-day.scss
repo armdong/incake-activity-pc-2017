@@ -1,0 +1,96 @@
+.layout-container{
+    width: 100%;
+    height: auto;
+    .bannerheader{
+        position: relative;
+        width: 1200px;
+        height:760px;
+        margin: 0 auto;
+        img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -960px;
+            width: 1920px;
+            height: 760px;
+        }
+    }
+    .bannerbottom{
+        position: relative;
+        width: 1200px;
+        height: 2184px;
+        margin: 0 auto;
+        img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -960px;
+            width: 1920px;
+            height: 2184px;
+        }
+        a{
+            display: block;
+            width: 128px;
+            height: 31px;
+            background: url(../imgs/ali-valentine-day/btn.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: btn 3s infinite;
+        }
+        .btn-one{
+            position: absolute;
+            right: 360px;
+            top:200px;
+        }
+        .btn-two{
+            position: absolute;
+            left: 178px;
+            top: 935px;
+        }
+        .btn-three{
+            position: absolute;
+            right: 140px;
+            bottom: 725px;
+        }
+        .rule{
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin-left: -600px;
+            width: 1200px;
+            dl{
+                width: 1200px;
+                height: 320px;
+                margin: 0 auto;
+                dt{
+                    padding-top: 60px;
+                    font-size: 17px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 22px;
+                }
+                dd{
+                    font-size: 18px;
+                    margin: 20px 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+ .frm-container {
+     width: 100%;
+     background-color: #425670;
+     .flt{
+         position: fixed;
+          bottom: 0;
+          left: 0;
+          z-index: 999999;
+     }
+
+}
+@keyframes btn{
+    0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.8); }
+    100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}

@@ -1,0 +1,107 @@
+.layout-container{
+    max-width: 1920px;
+    min-width: 1200px;
+    width: 100%;
+    overflow: hidden;
+    background: -webkit-linear-gradient(#fbf1f1, #faf0f0); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#fbf1f1, #faf0f0); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#fbf1f1, #faf0f0); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#fbf1f1, #faf0f0); /* 标准的语法（必须放在最后） */
+    .banner{
+        position: relative;
+        width: 1200px;
+        height: 1764px;
+        margin: 0 auto;
+        .doll{
+            position: absolute;
+            top: 0;
+            right: 225px;
+            display: block;
+            width: 61px;
+            height: 254px;
+            background: url('../imgs/caricature-era/doll.png') no-repeat;
+            -webkit-transform-origin:52% 0;
+            -moz-transform-origin:52% 0;
+            -ms-transform-origin:52% 0;
+            -o-transform-origin:52% 0;
+            transform-origin:52% 0;
+            -webkit-animation: shake 3s infinite;
+            -moz-animation: shake 3s infinite;
+            -ms-animation: shake 3s infinite;
+            -o-animation: shake 3s infinite;
+            animation: shake 3s infinite;
+        }
+        .btn{
+            position: absolute;
+            left: 450px;
+            bottom: 75px;
+            display: block;
+            width: 290px;
+            height: 125px;
+            background: url('../imgs/caricature-era/btn.png') no-repeat;
+            background-size: cover;
+            animation: discount 3s infinite;
+        }
+    }
+    .rule{
+        max-width: 1920px;
+        min-width: 1200px;
+        background-color: #f4d4dd;
+        dl{
+            width: 1200px;
+            margin: 0 auto;
+            dt{
+                padding-top: 40px;
+                padding-bottom: 35px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                color: #e03155;
+            }
+            dd{
+                line-height: 30px;
+                font-size: 14px;
+                color: #e03155;
+                margin-left: 330px;
+            }
+            dd:last-child{
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
+@keyframes discount{
+   0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+   50%  { -webkit-transform: scale(0.7); -ms-transform: scale(0.7); }
+   100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+}
+@-webkit-keyframes shake /* Safari 和 Chrome */
+{
+	0% { -webkit-transform: rotate(-40deg); }
+	50% {-webkit-transform: rotate(40deg); }
+	100% {-webkit-transform: rotate(-40deg); }
+}
+@-moz-keyframes shake /* Firefox */
+{
+	0% {-moz-transform: rotate(-40deg); }
+	50% {-moz-transform: rotate(40deg); }
+	100% {-moz-transform: rotate(-40deg); }
+}
+@-ms-keyframes shake
+{
+	0% {-ms-transform: rotate(-40deg); }
+	50% {-ms-transform: rotate(40deg); }
+	100% {-ms-transform: rotate(-40deg); }
+}
+@-o-keyframes shake
+{
+	0% {-o-transform: rotate(-40deg); }
+	50% {-o-transform: rotate(40deg); }
+	100% {-o-transform: rotate(-40deg); }
+}
+@keyframes shake
+{
+	0% {transform: rotate(-40deg); }
+	50% {transform: rotate(40deg); }
+	100% {transform: rotate(-40deg); }
+}

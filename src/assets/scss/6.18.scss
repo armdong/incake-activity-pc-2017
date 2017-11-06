@@ -1,0 +1,102 @@
+.layout-container{
+    width: 100%;
+    height: auto;
+    .banner{
+        position: relative;
+        top: 0;
+        width: 1200px;
+        height: 1969px;
+        margin: 0 auto;
+        >img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 1920px;
+            height: 1969px;
+            margin-left: -960px; 
+        }
+        a{
+            display: block;
+            width: 95px;
+            height: 42px;
+            background: url("../imgs/618/buy.png") no-repeat;
+            background-size: 95px 42px;
+        }
+        .btn-buy01{
+            position: absolute;
+            left: 235px;
+            top: 850px;
+        }
+        .btn-buy02{
+            position: absolute;
+            left: 635px;
+            top: 850px;
+        }
+        .btn-buy03{
+            position: absolute;
+            left: 1035px;
+            top: 850px;
+        }
+        .btn-buy04{
+            position: absolute;
+            left: 865px;
+            top: 1235px;
+        }
+        .btn-buy05{
+            position: absolute;
+            left: 405px;
+            top: 1235px;
+        }
+        .btn-buy06{
+            position: absolute;
+            left: 235px;
+            bottom: 290px;
+        }
+        .btn-buy07{
+            position: absolute;
+            left: 635px;
+            bottom: 290px;
+        }
+        .btn-buy08{
+            position: absolute;
+            left: 1035px;
+            bottom: 290px;
+        }
+    }
+    .rule{
+        max-width: 1920px;
+        width: 100%;
+        height: 340px;
+        background-color: #9fc1f1;
+        dl{
+            width: 1200px;
+            height: 320px;
+            margin: 0 auto;
+            color: #fff;
+            dt{
+                padding-top: 60px;
+                font-size: 17px;
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            dd{
+                font-size: 18px;
+                margin: 20px 0;
+                margin-left: 350px;
+            }
+        }
+    }
+}
+ .frm-container { 
+     width: 100%; 
+     background-color: #425670;
+     .flt{
+         position: fixed;
+          bottom: 0; 
+          left: 0; 
+          z-index: 999999; 
+     }
+     
+}
+ 

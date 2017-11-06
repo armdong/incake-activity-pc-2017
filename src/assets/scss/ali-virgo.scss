@@ -1,0 +1,95 @@
+#pageMooncake {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffcdd0;
+
+  .page-container {
+    width: 100%;
+
+    .banner,
+    .content {
+      width: 1200px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+        vertical-align: top;
+        border: none;
+      }
+    }
+
+    .banner {
+      height: 1220px;
+    }
+
+    .content {
+      position: relative;
+      height: 620px;
+
+      .product {
+        position: absolute;
+        top: -142px;
+        left: 50%;
+        width: 800px;
+        height: 570px;
+        margin-left: -400px;
+      }
+
+      .btn {
+        display: block;
+        position: absolute;
+        bottom: 91px;
+        left: 473px;
+        width: 255px;
+        height: 99px;
+        background-image: url('../imgs/ali-virgo/button_bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation: ani 4s ease-in-out infinite;
+      }
+    }
+
+    .rules {
+      width: 100%;
+      background-color: #f37a82;
+
+      dl {
+        width: 1200px;
+        height: 295px;
+        margin: 0 auto;
+        color: #90050e;
+      }
+
+      dt {
+        padding-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 70px;
+      }
+
+      dd {
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 450px;
+      }
+    }
+  }
+}
+@keyframes ani {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}

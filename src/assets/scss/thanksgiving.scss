@@ -1,0 +1,70 @@
+.page-thanksgiving {
+  width: 100%;
+  background-color: #8fd9e8;
+
+  .page-container {
+    width: 100%;
+    margin: 0 auto;
+
+    .content {
+      position: relative;
+      width: 1200px;
+      height: 2800px;
+      margin: 0 auto;
+
+      .inner {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 1920px;
+        height: 2800px;
+        margin-left: -960px;
+        background: {
+          image: url('../imgs/thanksgiving/content_bg.jpg');
+          repeat: no-repeat;
+          size: cover;
+          position: top center;
+        };
+      }
+
+      .btn-buy {
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        width: 392px;
+        height: 135px;
+        margin-left: -196px;
+        background: {
+          image: url('../imgs/thanksgiving/btn_buy.png');
+          repeat: no-repeat;
+          size: cover;
+          position: top center;
+        };
+      }
+    }
+
+    .rules {
+      width: 100%;
+      background-color: #f5faa4;
+    
+      dl {
+        width: 300px;
+        padding: 20px 0 54px 0;
+        margin: 0 auto;
+        color: #222;
+      }
+
+      dt {
+        font-size: 18px;
+        line-height: 60px;
+        text-align: center;
+      }
+
+      dd {
+        font-size: 14px;
+        line-height: 30px;
+      }
+    }
+  }
+}

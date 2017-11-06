@@ -1,0 +1,144 @@
+#pageMooncake {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+  background-color: #eec2b3;
+
+  .page-container {
+    width: 100%;
+
+    .banner,
+    .content {
+      width: 1200px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+        vertical-align: top;
+        border: none;
+      }
+    }
+
+    .banner {
+      position: relative;
+      height: 1120px;
+
+      &:after {
+        display: block;
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: -502px;
+        width: 262px;
+        height: 106px;
+        background-image: url('../imgs/mooncake/cloud.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+
+    .prod {
+      position: relative;
+      width: 100%;
+
+      .btn {
+        display: block;
+        position: absolute;
+        width: 262px;
+        height: 83px;
+        background-image: url('../imgs/mooncake/button_bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation: ani 4s ease-in-out infinite;
+      }
+
+      &.prod01 {
+        height: 812px;
+
+        .btn {
+          right: 358px;
+          bottom: 110px;
+        }
+
+        &:after {
+          display: block;
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: -436px;
+          width: 262px;
+          height: 106px;
+          background-image: url('../imgs/mooncake/cloud.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+
+      &.prod02 {
+        height: 959px;
+
+        .btn {
+          left: 488px;
+          bottom: 93px;
+        }
+
+        &:after {
+          display: block;
+          content: '';
+          position: absolute;
+          bottom: -18px;
+          right: 23px;
+          width: 179px;
+          height: 72px;
+          background-image: url('../imgs/mooncake/cloud.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+    }
+
+    .rules {
+      width: 100%;
+      background-color: #d88c72;
+
+      dl {
+        width: 1200px;
+        height: 245px;
+        margin: 0 auto;
+        color: #773823;
+      }
+
+      dt {
+        font-size: 18px;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      dd {
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 450px;
+      }
+    }
+  }
+}
+@keyframes ani {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}

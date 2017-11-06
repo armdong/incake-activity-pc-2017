@@ -1,0 +1,207 @@
+.page-container {
+  width: 100%;
+  background-image: url('../imgs/midautumn/bg.jpg');
+  overflow: hidden;
+
+  .midautumn-container {
+    position: relative;
+    width: 1200px;
+    height: 2417px;
+    margin: 0 auto;
+
+    .moon {
+      position: absolute;
+      top: -420px;
+      right: -191px;
+      z-index: 8;
+      width: 695px;
+      height: 695px;
+      background: {
+        image: url('../imgs/midautumn/moon.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+      transform-origin: center center;
+    }
+
+    .title {
+      position: absolute;
+      top: 160px;
+      right: -1000px;
+      z-index: 10;
+      width: 560px;
+      height: 747px;
+      background: {
+        image: url('../imgs/midautumn/title.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+      transform: scale(0.2);
+    }
+
+    .words {
+      position: absolute;
+      bottom: 660px;
+      right: 130px;
+      z-index: 10;
+      width: 508px;
+      height: 692px;
+      background: {
+        image: url('../imgs/midautumn/words.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+    }
+
+    .cakes {
+      position: absolute;
+      bottom: 200px;
+      left: -12px;
+      z-index: 10;
+      width: 1224px;
+      height: 459px;
+      background: {
+        image: url('../imgs/midautumn/cakes.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+    }
+
+    .lantern-part {
+      position: absolute;
+      top: 0;
+      left: -2000px;
+      z-index: 3;
+      width: 370px;
+      height: 1508px;
+      background: {
+        image: url('../imgs/midautumn/lantern_part.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+    }
+
+    .lantern {
+      position: absolute;
+      top: 2000px;
+      right: 80px;
+      z-index: 9;
+      width: 131px;
+      height: 346px;
+      background: {
+        image: url('../imgs/midautumn/lantern.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+      transform: scale(1.5);
+    }
+
+    .litter-part {
+      position: absolute;
+      z-index: 1;
+      background: {
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+
+      &.litter-01 {
+        top: 150px;
+        left: 2000px;
+        width: 282px;
+        height: 56px;
+        background-image: url('../imgs/midautumn/little_part_01.png');
+      }
+
+      &.litter-02 {
+        top: 550px;
+        left: -2000px;
+        width: 282px;
+        height: 56px;
+        background-image: url('../imgs/midautumn/little_part_01.png');
+      }
+
+      &.litter-03 {
+        top: 1044px;
+        left: 2000px;
+        width: 282px;
+        height: 56px;
+        background-image: url('../imgs/midautumn/little_part_02.png');
+      }
+
+      &.litter-04 {
+        top: 260px;
+        left: -2000px;
+        width: 332px;
+        height: 103px;
+        background-image: url('../imgs/midautumn/little_part_03.png');
+      }
+    }
+
+    .discount-50 {
+      position: absolute;
+      top: 370px;
+      left: 2000px;
+      z-index: 2;
+      width: 243px;
+      height: 288px;
+      background: {
+        image: url('../imgs/midautumn/discount_50.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+    }
+
+    .btn-buy {
+      display: block;
+      position: absolute;
+      bottom: 110px;
+      left: 484px;
+      z-index: 10;
+      width: 454px;
+      height: 85px;
+      background: {
+        image: url('../imgs/midautumn/btn_buy.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+    }
+  }
+
+  .midautumn-rules {
+    width: 100%;
+    background-color: rgba(241, 229, 194, 0.6);
+
+    dl {
+      width: 1200px;
+      height: 306px;
+      margin: 0 auto;
+      color: #4c1f00;
+    }
+
+    dt {
+      padding-top: 20px;
+      font-size: 18px;
+      line-height: 70px;
+      text-align: center;
+    }
+
+    dd {
+      margin-left: 450px;
+      font-size: 14px;
+      line-height: 30px;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

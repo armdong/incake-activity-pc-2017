@@ -1,0 +1,134 @@
+#pageTeachersDay {
+  width: 100%;
+  min-width: 1300px;
+  margin: 0 auto;
+  background: {
+    image: url('../imgs/teachers-day/body_bg.jpg');
+    repeat: no-repeat;
+    size: cover;
+    position: center center;
+  }
+
+  .page-container {
+    width: 100%;
+  }
+
+  .page-wrapper {
+    width: 1300px;
+    margin: 0 auto;
+    background: {
+      image: url('../imgs/teachers-day/wrapper_bg.png');
+      repeat: no-repeat;
+      size: cover;
+      position: center center;
+    }
+
+    .banner,
+    .content {
+      width: 1200px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+        vertical-align: top;
+        border: none;
+      }
+    }
+
+    .banner {
+      height: 1430px;
+    }
+
+    .prod {
+      position: relative;
+      width: 100%;
+
+      .btn {
+        display: block;
+        position: absolute;
+        width: 229px;
+        height: 89px;
+        background-image: url('../imgs/teachers-day/button_bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation: ani 4s ease-in-out infinite;
+      }
+
+      &.prod01 {
+        height: 410px;
+
+        .btn {
+          top: 128px;
+          right: 319px;
+        }
+      }
+
+      &.prod02 {
+        height: 694px;
+
+        .btn {
+          top: 126px;
+          left: 462px;
+        }
+      }
+    }
+  }
+
+  .rules {
+    width: 100%;
+    background-color: #e3c2a6;
+
+    dl {
+      position: relative;
+      width: 1200px;
+      height: 214px;
+      margin: 0 auto;
+      color: #8c551f;
+
+      &:after {
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 175px;
+        width: 57px;
+        height: 213px;
+        background: {
+          image: url('../imgs/teachers-day/rule_bg.png');
+          repeat: no-repeat;
+          size: 57px 213px;
+          position: center center;
+        }
+      }
+    }
+
+    dt {
+      font-size: 18px;
+      text-align: center;
+      line-height: 70px;
+    }
+
+    dd {
+      font-size: 14px;
+      line-height: 30px;
+      margin-left: 450px;
+    }
+  }
+}
+@keyframes ani {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}

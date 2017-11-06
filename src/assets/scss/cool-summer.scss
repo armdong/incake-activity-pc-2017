@@ -1,0 +1,344 @@
+.header{
+    width: 100%;
+    div{
+        position: relative;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        img{
+            padding: 12px 0 12px 20px;
+        }
+        a{
+            position: absolute;
+            right: 20px;
+            top: 17px;
+            display:block;
+            width: 210px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            color: #fff;
+            background-color: #1494b0;
+            border-radius: 10px;
+            span{
+                display:block;
+                animation: official 3s infinite;
+            }
+        }
+    }
+}
+.layout-container{
+    max-width: 1920px;
+    width: 100%;
+    background-color: #ddf9ff;
+    .banner{
+        position: relative;
+        max-width: 1200px;
+        width: 100%;
+        height: 933px;
+        margin: 0 auto;
+        img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -960px;
+            width: 1920px;
+            height: 933px;
+        }
+    }
+    .banner-btn{
+        position: relative;
+        max-width: 1200px;
+        width: 100%;
+        height: 1444px;
+        margin: 0 auto;
+        img{
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -960px;
+            width: 1920px;
+            height: 1444px;
+        }
+        a{
+            display: block;
+            width: 191px;
+            height: 68px;
+            background: url(../imgs/cool-summer/btn.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .btn01{
+            position: absolute;
+            left: 380px;
+            top: 317px;
+        }
+        .btn02{
+            position: absolute;
+            right:10px;
+            top: 487px;
+        }
+        .btn03{
+            position: absolute;
+            left: 380px;
+            top: 717px;
+        }
+        .btn04{
+            position: absolute;
+            right:10px;
+            bottom: 487px;
+        }
+        .btn05{
+            position: absolute;
+            left: 380px;
+            bottom: 280px;
+        }
+        .btn06{
+            position: absolute;
+            right:10px;
+            bottom: 105px;
+        }
+    }
+    .rule{
+        width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        dl{
+            color: #1494b0;
+            width: 600px;
+            padding-left: 310px;
+            padding-bottom: 60px;
+            dt{
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                padding-top: 70px;
+                padding-bottom: 20px;
+            }
+            dd{
+                line-height: 35px;
+            }
+        }
+    }
+}
+.frm-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1494b0;
+    .frm-register{
+        width: 1200px;
+        margin: 0 auto;
+        p{
+            text-align: center;
+            font-size: 24px;
+            padding: 10px 0;
+            color: #fff;
+        }
+        ul{
+            list-style: none;
+            padding-bottom: 20px;
+            li{
+                float: left;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-right: 40px;
+            }
+            .first{
+                position: relative;
+                width: 400px;
+                height: 40px;
+                margin-left: 112px;
+                input{
+                    width: 60%;
+                    height: 40px;
+                    padding-left: 20px;
+                }
+                a{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 40%;
+                    height: 40px;
+                    display: block;
+                    text-align: center;
+                    line-height: 40px;
+                    background-color: #007994;
+                    color: #fff;
+                }
+                a.active{
+                    background-color: #99807f;
+                    border-color: #99807f;
+                }
+            }
+            .vcode{
+                width: 220px;
+                height: 40px;
+                input{
+                    width: 100%;
+                    height: 40px;
+                    padding-left: 20px;
+                }
+            }
+            .last{
+                width: 220px;
+                height: 40px;
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 24px;
+                    color: #fff;
+                    background-color: #007994;
+                }
+            }
+        }
+    }
+}
+#mask-result{
+        // display: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,255,255,0.7);
+        .mask{
+            // display: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -220px;
+            margin-top: -141px;
+            width: 440px;
+            height: 282px;
+            border: 1px solid #007994;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            >span{
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                display: block;
+                width: 42px;
+                height: 42px;
+                background: url(../imgs/cool-summer/delete.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: 9999;
+            }
+            div{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 440px;
+                height: 222px;
+                background: url(../imgs/cool-summer/succeed.png);
+                background-repeat: no-repeat;
+                background-size: 86px 57px;
+                background-position: 40px 80px;
+                p{
+                    position: absolute;
+                    left: 150px;
+                    top: 70px;
+                    bottom: 0;
+                    right: 0;
+                    width: 60%;
+                    color: #505050;
+                    font-size: 22px;
+                }
+            }
+            a{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                height: 60px;
+                font-size: 18px;
+                background-color: #007994;
+                text-align: center;
+                line-height: 60px;
+                color: #fff;
+            }
+        }
+        .result{
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -220px;
+            margin-top: -141px;
+            width: 440px;
+            height: 282px;
+            border: 1px solid #007994;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            >span{
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                display: block;
+                width: 42px;
+                height: 42px;
+                background: url(../imgs/cool-summer/delete.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            div{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 440px;
+                height: 222px;
+                p{
+                    position: absolute;
+                    left: 30px;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 90%;
+                    margin: auto;
+                    display: table;
+                    color: #505050;
+                    font-size: 22px;
+                }
+            }
+            .first{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: block;
+                width: 50%;
+                height: 60px;
+                font-size: 18px;
+                background-color: #1494b0;
+                text-align: center;
+                line-height: 60px;
+                color: #fff;
+            }
+            .last{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                display: block;
+                width: 50%;
+                height: 60px;
+                font-size: 18px;
+                background-color: #007994;
+                text-align: center;
+                line-height: 60px;
+                color: #fff;
+            }
+        }
+    }
+    @keyframes official{
+        0%   { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    	50%  { -webkit-transform: scale(0.8); -ms-transform: scale(0.5); }
+    	100% { -webkit-transform: scale(1); -ms-transform: scale(1); }
+    }
