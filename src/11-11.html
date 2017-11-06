@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>INCAKE | 4.5折+半价，双11剁手疯抢！</title>
+  <link rel="stylesheet" href="assets/plugins/normalize/normalize.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/11-11.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+  <!-- layout begin -->
+  <div class="layout">
+
+    <!-- layout header begin -->
+    <div class="layout-header" id="layoutHeader">
+      <div class="header-body">
+        <!-- logo begin -->
+        <a href="index.html" class="logo"></a>
+        <!-- logo end -->
+        <!-- nav begin -->
+        <ul class="nav clearfix">
+          <li class="active"><a href="/index.html">首页</a></li>
+          <li class="sub">
+            <a href="/list.html">蛋糕馆</a>
+            <ul class="subnav">
+              <li><a href="javascript:;">芝士系列</a></li>
+              <li><a href="javascript:;">巧克力系列</a></li>
+              <li><a href="javascript:;">拿破仑系列</a></li>
+              <li><a href="javascript:;">慕斯系列</a></li>
+              <li><a href="javascript:;">乳脂系列</a></li>
+              <li><a href="javascript:;">选拼系列</a></li>
+              <li><a href="javascript:;">星座系列</a></li>
+              <li><a href="javascript:;">阿狸系列</a></li>
+            </ul>
+          </li>
+          <li><a href="javascript:;">三小时送</a></li>
+          <li class="sub">
+            <a href="javascript:;">INLIFE</a>
+            <ul class="subnav">
+              <li><a href="javascript:;">下午茶</a></li>
+              <li><a href="javascript:;">鲜花</a></li>
+              <li><a href="javascript:;">饮品</a></li>
+              <li><a href="javascript:;">礼品</a></li>
+            </ul>
+          </li>
+          <li class="sub">
+            <a href="javascript:;">惊喜定制</a>
+            <ul class="subnav">
+              <li><a href="javascript:;">惊喜蛋糕</a></li>
+              <li><a href="javascript:;">翻糖定制</a></li>
+              <li><a href="javascript:;">场景定制</a></li>
+            </ul>
+          </li>
+          <li><a href="javascript:;">试吃申请</a></li>
+          <li><a href="javascript:;">卡券兑换</a></li>
+        </ul>
+        <!-- nav end -->
+        <!-- portal begin -->
+        <div class="portal clearfix">
+          <div class="unlogin clearfix active">
+            <a href="login.html" class="login">登录</a>
+            <span>|</span>
+            <a href="register.html" class="register">注册</a>
+          </div>
+          <div class="logined clearfix">
+            <div class="profile-wrap">
+              <p class="info">13811112222</p>
+              <ul class="plist">
+                <li class="active"><a href="javascript:;">个人中心</a></li>
+                <li><a href="javascript:;">账户设置</a></li>
+                <li><a href="javascript:;">账户优惠券</a></li>
+                <li class="last"><a href="javascript:;">退出账号</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- portal end -->
+        <!-- basket begin -->
+        <div class="basket">
+          <a href="javascript:;" class="view"><span>10</span></a>
+          <div class="content">
+            <span class="arrow-up"></span>
+            <ul class="list basket-list"></ul>
+            <script id="tplBasketList" type="text/html">
+              {{if list.length > 0}} {{each list as item i}}
+              <li class="clearfix">
+                <a href="{{item.link}}" class="img">
+                  <img src="{{item.thumbUrl}}" alt="">
+                </a>
+                <div class="text">
+                  <p class="first-row clearfix">
+                    <span class="name">{{item.name}}</span>
+                    <span class="price">￥{{item.price}}</span>
+                  </p>
+                  <p class="second-row clearfix">
+                    <span class="pound">{{item.pound}}磅</span>
+                    <span class="num">x{{item.num}}</span>
+                  </p>
+                </div>
+                <a href="javascript:;" class="remove"></a>
+              </li>
+              {{/each}} {{/if}}
+            </script>
+            <a href="javascript:;" class="view-basket">查看购物篮 >></a>
+          </div>
+        </div>
+        <!-- basket end -->
+        <!-- locator begin -->
+        <div class="locator">
+          <span class="arrow"></span>
+          <p>上海</p>
+          <div class="content">
+            <span class="arrow-up"></span>
+            <p>请选择您要配送的城市：</p>
+            <ul class="clearfix">
+              <li class="active">上海</li>
+              <li>福州</li>
+              <li>苏州</li>
+              <li>昆山</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>南京</li>
+              <li>杭州</li>
+              <li>青岛</li>
+              <li>扬州</li>
+            </ul>
+          </div>
+        </div>
+        <!-- locator end -->
+      </div>
+    </div>
+    <!-- layout header end -->
+
+    <!-- layout container begin -->
+    <div class="layout-container">
+      <div class="page page-eleven" id="pageEleven">
+        <div class="page-container">
+          
+          <!-- banner begin -->
+          <div class="banner">
+            <div class="inner"></div>
+          </div>
+          <!-- banner end -->
+          
+          <!-- content begin -->
+          <div class="content">
+            
+            <div class="area area-01">
+              <div class="area-header"></div>
+              <div class="area-content">
+                <ul class="col-2 clearfix">
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_01.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">经典奶香</span>
+                      <span class="en">CLASSIC CREAM</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active">1.2磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>85</span>
+                      <span class="original">￥189</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_02.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">至爱红丝绒</span>
+                      <span class="en">LOVE RED VELVET</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active">1.2磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>85</span>
+                      <span class="original">￥189</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="area area-02">
+              <div class="area-header"></div>
+              <div class="area-content">
+                <ul class="col-2 clearfix">
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_03.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">樱桃冻芝士</span>
+                      <span class="en">CHERRY CHEESE CAKE</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active">1.5磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>95</span>
+                      <span class="original">￥189</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_04.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">云朵女孩</span>
+                      <span class="en">SPOTLESS GIRL'S CAKE</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active">1.2磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>95</span>
+                      <span class="original">￥189</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                </ul>
+                <ul class="col-3 clearfix">
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_05.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">女王芝士</span>
+                      <span class="en">QUEEN CHEESE CAKE</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active">1.5磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>95</span>
+                      <span class="original">￥189</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_06.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">浓情巧克力</span>
+                      <span class="en">LOVE IN CHOCOLATE</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active">1.2磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>95</span>
+                      <span class="original">￥189</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_07.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">经典双拼</span>
+                      <span class="en">CLASSIC TWO-IN-ONE</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active">1.2磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>95</span>
+                      <span class="original">￥189</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="area area-03" id="area03">
+              <div class="area-header"></div>
+              <div class="area-content">
+                <ul class="col-3 clearfix">
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_08.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">蓝莓优格</span>
+                      <span class="en">BLUEBERRY CHEESE CAKE</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active" data-current="140" data-original="279">2.5磅</span>
+                      <span class="pound" data-current="215" data-original="429">3.5磅</span>
+                      <span class="pound" data-current="355" data-original="709">5.5磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>140</span>
+                      <span class="original">￥279</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_09.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">提拉米苏</span>
+                      <span class="en">TIRAMISU</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active" data-current="140" data-original="279">2.5磅</span>
+                      <span class="pound" data-current="215" data-original="429">3.5磅</span>
+                      <span class="pound" data-current="355" data-original="709">5.5磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>140</span>
+                      <span class="original">￥279</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_10.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">奶香巧克力</span>
+                      <span class="en">CHOCOLATE CAKE</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active" data-current="140" data-original="279">2.2磅</span>
+                      <span class="pound" data-current="215" data-original="429">3.2磅</span>
+                      <span class="pound" data-current="355" data-original="709">5.2磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>140</span>
+                      <span class="original">￥279</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                </ul>
+                <ul class="col-3 clearfix">
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_11.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">蓝莓拿破仑</span>
+                      <span class="en">BLUEBERRY NAPOLEON</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active" data-current="140" data-original="279">2.5磅</span>
+                      <span class="pound" data-current="215" data-original="429">3.5磅</span>
+                      <span class="pound" data-current="355" data-original="709">5.5磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>140</span>
+                      <span class="original">￥279</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_12.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">榴莲甜心</span>
+                      <span class="en">DURIAN SWEETHEART</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active" data-current="140" data-original="279">2.5磅</span>
+                      <span class="pound" data-current="215" data-original="429">3.5磅</span>
+                      <span class="pound" data-current="355" data-original="709">5.5磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>140</span>
+                      <span class="original">￥279</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                  <li class="item">
+                    <a class="img">
+                      <img src="assets/imgs/11-11/cake_13.png" alt="">
+                    </a>
+                    <p class="name">
+                      <span class="cn">无添加蔗糖</span>
+                      <span class="en">SUGAR-FREE ALMOND</span>
+                    </p>
+                    <p class="pounds clearfix">
+                      <span class="pound active" data-current="140" data-original="279">2.2磅</span>
+                      <span class="pound" data-current="215" data-original="429">3.2磅</span>
+                      <span class="pound" data-current="355" data-original="709">5.2磅</span>
+                    </p>
+                    <p class="price">
+                      <span class="current"><i>￥</i>140</span>
+                      <span class="original">￥279</span>
+                    </p>
+                    <a href="javascript:;" class="buy-immediately">立即购买</a>
+                  </li>
+                </ul>
+                <a class="view-more" href="javascript:;">查看更多</a>
+              </div>
+              <div class="area-footer"></div>
+            </div>
+
+          </div>
+          <!-- content end -->
+
+          <!-- rules begin -->
+          <div class="rules">
+            <dl>
+              <dt>活动规则</dt>
+              <dd>1. 活动时间：11月11日</dd>
+              <dd>2. 配送时间：11月12日-12月12日</dd>
+              <dd>3. 可配送城市：上海，福州，苏州，厦门，南京，杭州，</dd>
+              <dd>&nbsp;&nbsp;&nbsp;&nbsp;宁波，青岛，扬州 ，镇江</dd>
+              <dd>4. 本活动不可使用代金卡，不与其他优惠同享</dd>
+            </dl>
+          </div>
+          <!-- rules end -->
+
+        </div>
+      </div>
+    </div>
+    <!-- layout container end -->
+
+    <!-- layout footer begin -->
+    <div class="layout-footer">
+      <div class="footer-body">
+        <div class="container">
+          <div class="logo"></div>
+          <div class="content">
+            <p class="nav clearfix">
+              <a href="javascript:;">配送范围</a><span>|</span>
+              <a href="javascript:;">帮助中心</a><span>|</span>
+              <a href="javascript:;">品牌故事</a><span>|</span>
+              <a href="javascript:;">关于我们</a><span>|</span>
+              <a href="javascript:;">招贤纳士</a>
+            </p>
+            <p class="hotline clearfix">
+              <span>客服热线：</span>
+              <span class="tel">400-921-5757</span>
+            </p>
+            <div class="third-party clearfix">
+              <a class="wechat" href="javascript:;"></a>
+              <a class="sina" href="javascript:;"></a>
+              <a class="qq" href="javascript:;"></a>
+              <a class="dianping" href="javascript:;"></a>
+            </div>
+          </div>
+          <div class="qrcode">
+            <div class="img"></div>
+            <p class="text">微信订购更方便</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p>
+            <span>Copyright &copy;2012-2017 上海印克电子商务股份有限公司 版权所有</span>
+            <span>沪ICP备12045835</span>
+            <span>沪公网安备31010802001150</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- layout footer end -->
+
+  </div>
+  <!-- layout end -->
+
+  <!-- javscript begin -->
+
+  <script src="assets/js/jquery-1.8.3.min.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/plugins/artTemplate/template.js"></script>
+  <script src="assets/plugins/tweenmax/TweenMax.min.js"></script>
+  <script src="assets/js/11-11.js"></script>
+</body>
+
+</html>
