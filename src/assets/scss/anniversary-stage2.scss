@@ -95,7 +95,13 @@
     .cakes {
       width: 1156px;
       margin: 0 auto;
-      padding-bottom: 114px;
+      padding-bottom: 160px;
+      background: {
+        image: url('../imgs/anniversary-stage2/tips.png');
+        repeat: no-repeat;
+        size: contain;
+        position: bottom center;
+      }
 
       .cake {
         float: left;
