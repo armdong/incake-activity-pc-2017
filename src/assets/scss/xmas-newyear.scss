@@ -1,0 +1,183 @@
+.page-xmas {
+  width: 100%;
+  background-color: #c42101;
+
+  .page-container {
+    min-width: 1200px;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .banner {
+    position: relative;
+    width: 1200px;
+    height: 1066px;
+    margin: 0 auto;
+
+    .inner {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 1920px;
+      height: 1066px;
+      margin-left: -960px;
+      background: {
+        image: url('../imgs/xmas-newyear/img_banner.jpg');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+    }
+  }
+
+  .content {
+    width: 1200px;
+    margin: 0 auto;
+
+    .desc {
+      position: relative;
+      width: 1200px;
+      height: 1453px;
+      margin: 0 auto;
+      background: {
+        image: url('../imgs/xmas-newyear/img_desc.jpg');
+        repeat: no-repeat;
+        size: cover;
+        position: center center;
+      }
+
+      .btn-santa {
+        display: block;
+        position: absolute;
+        bottom: 138px;
+        left: 249px;
+        z-index: 99;
+        width: 195px;
+        height: 54px;
+        transform-origin: center center;
+        transition: transform 0.4s ease-in-out;
+        background: {
+          image: url('../imgs/xmas-newyear/btn_santa.png');
+          repeat: no-repeat;
+          size: cover;
+          position: center center;
+        }
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    .discounts {
+      width: 1200px;
+      margin: 0 auto;
+      padding-bottom: 120px;
+
+      .discount {
+        position: relative;
+        width: 1200px;
+        margin-top: 60px;
+        background: {
+          repeat: no-repeat;
+          size: cover;
+          position: center center;
+        }
+
+        .btn-buy {
+          display: block;
+          position: absolute;
+          z-index: 99;
+          width: 227px;
+          height: 60px;
+          background: {
+            image: url('../imgs/xmas-newyear/btn_buy.png');
+            repeat: no-repeat;
+            size: cover;
+            position: center center;
+          }
+          transform-origin: center center;
+          transition: transform 0.4s ease-in-out;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+
+          &.btn-left {
+            left: 207px;
+          }
+          &.btn-right {
+            right: 216px;
+          }
+        }
+      }
+
+      .discount-52 {
+        height: 1478px;
+        background-image: url('../imgs/xmas-newyear/img_discount_52.jpg');
+
+        .btn-mango {
+          top: 477px;
+        }
+        .btn-classic {
+          top: 893px;
+        }
+        .btn-lolipop {
+          bottom: 122px;
+        }
+      }
+
+      .discount-58 {
+        height: 1973px;
+        background-image: url('../imgs/xmas-newyear/img_discount_58.jpg');
+
+        .btn-velvet {
+          top: 477px;
+        }
+        .btn-margaret {
+          top: 900px;
+        }
+        .btn-2in1 {
+          bottom: 618px;
+        }
+        .btn-bear {
+          bottom: 175px;
+        }
+      }
+
+      .discount-59 {
+        height: 669px;
+        background-image: url('../imgs/xmas-newyear/img_discount_59.jpg');
+
+        .btn-rainbow {
+          top: 486px;
+        }
+      }
+    }
+  }
+
+  .rules {
+    width: 100%;
+    background-color: #7f0c00;
+
+    dl {
+      width: 600px;
+      margin: 0 auto;
+      padding: 40px 0;
+      color: #fecece;
+    }
+
+    dt {
+      padding-bottom: 20px;
+      font-size: 18px;
+      line-height: 20px;
+      text-align: center;
+    }
+
+    dd {
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+}
